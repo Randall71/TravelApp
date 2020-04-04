@@ -1,10 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View , ScrollView } from 'react-native';
-import {colors} from './styles'
+import { StyleSheet, Text, View , ScrollView , } from 'react-native';
+import { colors } from './styles'
+import  HotelView from './Screens/HotelView'
+
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello wedorld</Text>
+      <HotelView/>
     </View>
   );
 }
