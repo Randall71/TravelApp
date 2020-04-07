@@ -1,3 +1,7 @@
+import { StyleSheet } from "react-native"
+
+
+
 
 export const colors = {
     darkBg: "#222",
@@ -8,3 +12,20 @@ export const colors = {
     text: "#fff",
     textSec: "#aaa"
 }
+
+export const gs = StyleSheet.create({
+    rowCenter: {
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    rowBetween: {
+        flexDirection: "row",
+        justifyContent: 'space-between',
+
+    },
+    center: {
+        alignItems: "center",
+        justifyContent: "center"
+    }
+})
+
