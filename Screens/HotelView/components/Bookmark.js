@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
         top: -25,
         backgroundColor: '#fff',
         borderRadius: 25,
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: 10
+        zIndex: 10,
+        ...gs.center
     }
 })
