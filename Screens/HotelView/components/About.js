@@ -7,17 +7,9 @@ const hotel = {
     name: "Sofitel Hotel Ivoire",
     price: "XOF15000",
     location: "Abidjan , Cote-d'Ivoire",
-    about: `Situé dans le quartier chic d’Abidjan, le Sofitel Abidjan Hotel Ivoire propose une connexion Wi-Fi gratuite, 4 restaurants, 5 bars et une piscine extérieure.
+    about: `Situé dans le quartier chic d’Abidjan, le Sofitel Abidjan Hotel Ivoire propose une connexion Wi-Fi gratuite, 4 restaurants, 5 bars et une piscine extérieure.`
+    
 
-    Dotées d’un balcon et offrant une vue sur la ville, toutes les chambres comprennent la climatisation, une télévision et une machine à café. Leur salle de bains privative est pourvue d’une baignoire et d’une douche.
-    
-    Sur place, vous trouverez un court de tennis, une salle de sport (Sofitel Fit) et le spa Sofitel. De plus, le Sofitel Abidjan Hotel Ivoire dispose de 18 salles pour vos événements et d’un auditorium de 1 650 places.
-    
-    Vous bénéficierez aussi d’un parking gratuit. Par ailleurs, vous pourrez pratiquer de nombreuses activités sur place ou dans les environs, comme le golf.
-    
-    Enfin, sur demande, vous profiterez d’un service de navette pour l'aéroport Félix Houphouët-Boigny, accessible à 19 km du Sofitel Abidjan Hotel Ivoire.
-    
-    Ce quartier (Cocody) est un choix idéal pour les voyageurs qui s'intéressent à ces thèmes : la relaxation, la nourriture et la plage.`
 } 
 
 
@@ -38,7 +30,8 @@ export default function About() {
 
 const styles = StyleSheet.create({
     container: {
-       ...gs.sectionContainer
+        ...gs.sectionContainer,
+        backgroundColor: colors.darkBg
     },
     title: {
         fontSize: 30,

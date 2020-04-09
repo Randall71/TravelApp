@@ -4,26 +4,28 @@ import {colors} from '../../styles'
 import Header from './components/Header'
 import Bookmark from './components/Bookmark'
 import About from './components/About'
+import Stats from './components/Stats'
 
 
 export default function index() {
     return (
-        <ScrollView style={styles.container}>
+        <View style={styles.container}>
             <StatusBar barStyle="light-content" />
             <Header />
             
             <View>
                 <Bookmark />
-                <About/>
+                <About />
+                <Stats />
             </View>
-        </ScrollView>
+        </View>
     )
 }
 
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1, 
+        // flex: 1, 
         //Quand j'active alignItems tout disparait comportement à revoir
         // justifyContent: 'center',
         // alignItems: 'center',

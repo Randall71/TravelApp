@@ -1,7 +1,6 @@
 import { StyleSheet } from "react-native"
 
 
-
 export const colors = {
     darkBg: "#222",
     lighBg: "#333",
@@ -14,10 +13,10 @@ export const colors = {
 
 export const gs = StyleSheet.create({
     sectionContainer: {
-        paddingVertical: 24,
+        paddingVertical: 20,
         paddingHorizontal: 32,
         marginBottom: 8,
-        backgroundColor: colors.darkBg
+        backgroundColor: colors.lighBg
     },
     sectionTitle: {
         fontWeight: "700",

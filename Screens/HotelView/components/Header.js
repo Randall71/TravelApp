@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     topButtons: {
         ...gs.rowBetween,
         position: 'absolute',
-        top: 35,
+        top: 15,
         left: 32,
         right: 32,
     },
