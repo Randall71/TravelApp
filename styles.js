@@ -8,7 +8,8 @@ export const colors = {
     lightHL: "#888",
     pink: "#ea3372",
     text: "#fff",
-    textSec: "#aaa"
+    textSec: "#aaa",
+    orange:  "#F97878"
 }
 
 export const gs = StyleSheet.create({
@@ -39,6 +40,13 @@ export const gs = StyleSheet.create({
     title: {
         fontSize: 30,
         color: colors.text,
+    },
+    subTitle:{
+        fontWeight: "600",
+        textTransform: "uppercase",
+        color: "rgba(255, 255, 255, 0.6)",
+        fontSize: 15,
+        letterSpacing: 1
     },
     divider: {
         borderBottomColor: "#444",
