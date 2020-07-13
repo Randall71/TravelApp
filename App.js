@@ -8,8 +8,8 @@ import ProfileView from './Screens/ProfileView'
 export default function App() {
   return (
     <ScrollView style={styles.container}>
-      {/* <HotelView/> */}
-      <ProfileView/>
+      <HotelView/>
+      {/* <ProfileView/> */}
     </ScrollView>
   );
 }
